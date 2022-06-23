@@ -1,7 +1,7 @@
 /**
  * @name Compact Settings
  * @description Compacts several menus in User Settings
- * @version 1.0.1
+ * @version 1.0.2
  * 
  * @author Fayne Aldan
  * @authorLink https://github.com/FayneAldan
@@ -48,10 +48,24 @@ $tab: ".item-3XjbnG";
   color: transparent !important;
   background: no-repeat center/24px;
   .theme-dark & {
-    background-image: url("https://img.icons8.com/material/24/B9BBBE/#{$icon}.png");
+    background-image: url("https://img.icons8.com/material/24/b9bbbe/#{$icon}.png");
+    &:hover {
+      background-image: url("https://img.icons8.com/material/24/dcddde/#{$icon}.png");
+    }
+    &:active,
+    &.selected-g-kMVV {
+      background-image: url("https://img.icons8.com/material/24/ffffff/#{$icon}.png");
+    }
   }
   .theme-light & {
-    background-image: url("https://img.icons8.com/material/24/4F5660/#{$icon}.png");
+    background-image: url("https://img.icons8.com/material/24/4f5660/#{$icon}.png");
+    &:hover {
+      background-image: url("https://img.icons8.com/material/24/2e3338/#{$icon}.png");
+    }
+    &:active,
+    &.selected-g-kMVV {
+      background-image: url("https://img.icons8.com/material/24/060607/#{$icon}.png");
+    }
   }
   // background-size: 24px;
   // background-repeat: no-repeat;

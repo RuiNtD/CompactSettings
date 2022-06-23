@@ -1,7 +1,7 @@
 /**
  * @name Compact Settings
  * @description Compacts several menus in User Settings
- * @version 1.0.1
+ * @version 1.0.2
  * 
  * @author Fayne Aldan
  * @authorLink https://github.com/FayneAldan
@@ -26,12 +26,36 @@
 .theme-dark .item-3XjbnG[data-item-id=pc-general],
 .theme-dark .bd-settings-tab,
 .theme-dark .item-3XjbnG[aria-controls=gm-settings-tab] {
-  background-image: url("https://img.icons8.com/material/24/B9BBBE/settings.png");
+  background-image: url("https://img.icons8.com/material/24/b9bbbe/settings.png");
+}
+.theme-dark .item-3XjbnG[data-item-id=pc-general]:hover,
+.theme-dark .bd-settings-tab:hover,
+.theme-dark .item-3XjbnG[aria-controls=gm-settings-tab]:hover {
+  background-image: url("https://img.icons8.com/material/24/dcddde/settings.png");
+}
+.theme-dark .item-3XjbnG[data-item-id=pc-general]:active, .theme-dark .item-3XjbnG[data-item-id=pc-general].selected-g-kMVV,
+.theme-dark .bd-settings-tab:active,
+.theme-dark .bd-settings-tab.selected-g-kMVV,
+.theme-dark .item-3XjbnG[aria-controls=gm-settings-tab]:active,
+.theme-dark .item-3XjbnG[aria-controls=gm-settings-tab].selected-g-kMVV {
+  background-image: url("https://img.icons8.com/material/24/ffffff/settings.png");
 }
 .theme-light .item-3XjbnG[data-item-id=pc-general],
 .theme-light .bd-settings-tab,
 .theme-light .item-3XjbnG[aria-controls=gm-settings-tab] {
-  background-image: url("https://img.icons8.com/material/24/4F5660/settings.png");
+  background-image: url("https://img.icons8.com/material/24/4f5660/settings.png");
+}
+.theme-light .item-3XjbnG[data-item-id=pc-general]:hover,
+.theme-light .bd-settings-tab:hover,
+.theme-light .item-3XjbnG[aria-controls=gm-settings-tab]:hover {
+  background-image: url("https://img.icons8.com/material/24/2e3338/settings.png");
+}
+.theme-light .item-3XjbnG[data-item-id=pc-general]:active, .theme-light .item-3XjbnG[data-item-id=pc-general].selected-g-kMVV,
+.theme-light .bd-settings-tab:active,
+.theme-light .bd-settings-tab.selected-g-kMVV,
+.theme-light .item-3XjbnG[aria-controls=gm-settings-tab]:active,
+.theme-light .item-3XjbnG[aria-controls=gm-settings-tab].selected-g-kMVV {
+  background-image: url("https://img.icons8.com/material/24/060607/settings.png");
 }
 
 .item-3XjbnG[data-item-id=pc-updater] {
@@ -43,10 +67,22 @@
   border: none !important;
 }
 .theme-dark .item-3XjbnG[data-item-id=pc-updater] {
-  background-image: url("https://img.icons8.com/material/24/B9BBBE/available-updates.png");
+  background-image: url("https://img.icons8.com/material/24/b9bbbe/available-updates.png");
+}
+.theme-dark .item-3XjbnG[data-item-id=pc-updater]:hover {
+  background-image: url("https://img.icons8.com/material/24/dcddde/available-updates.png");
+}
+.theme-dark .item-3XjbnG[data-item-id=pc-updater]:active, .theme-dark .item-3XjbnG[data-item-id=pc-updater].selected-g-kMVV {
+  background-image: url("https://img.icons8.com/material/24/ffffff/available-updates.png");
 }
 .theme-light .item-3XjbnG[data-item-id=pc-updater] {
-  background-image: url("https://img.icons8.com/material/24/4F5660/available-updates.png");
+  background-image: url("https://img.icons8.com/material/24/4f5660/available-updates.png");
+}
+.theme-light .item-3XjbnG[data-item-id=pc-updater]:hover {
+  background-image: url("https://img.icons8.com/material/24/2e3338/available-updates.png");
+}
+.theme-light .item-3XjbnG[data-item-id=pc-updater]:active, .theme-light .item-3XjbnG[data-item-id=pc-updater].selected-g-kMVV {
+  background-image: url("https://img.icons8.com/material/24/060607/available-updates.png");
 }
 
 .item-3XjbnG[data-item-id=pc-clickableEdits] {
@@ -58,10 +94,22 @@
   border: none !important;
 }
 .theme-dark .item-3XjbnG[data-item-id=pc-clickableEdits] {
-  background-image: url("https://img.icons8.com/material/24/B9BBBE/edit.png");
+  background-image: url("https://img.icons8.com/material/24/b9bbbe/edit.png");
+}
+.theme-dark .item-3XjbnG[data-item-id=pc-clickableEdits]:hover {
+  background-image: url("https://img.icons8.com/material/24/dcddde/edit.png");
+}
+.theme-dark .item-3XjbnG[data-item-id=pc-clickableEdits]:active, .theme-dark .item-3XjbnG[data-item-id=pc-clickableEdits].selected-g-kMVV {
+  background-image: url("https://img.icons8.com/material/24/ffffff/edit.png");
 }
 .theme-light .item-3XjbnG[data-item-id=pc-clickableEdits] {
-  background-image: url("https://img.icons8.com/material/24/4F5660/edit.png");
+  background-image: url("https://img.icons8.com/material/24/4f5660/edit.png");
+}
+.theme-light .item-3XjbnG[data-item-id=pc-clickableEdits]:hover {
+  background-image: url("https://img.icons8.com/material/24/2e3338/edit.png");
+}
+.theme-light .item-3XjbnG[data-item-id=pc-clickableEdits]:active, .theme-light .item-3XjbnG[data-item-id=pc-clickableEdits].selected-g-kMVV {
+  background-image: url("https://img.icons8.com/material/24/060607/edit.png");
 }
 
 .item-3XjbnG[data-item-id=pc-hastebin] {
@@ -73,10 +121,22 @@
   border: none !important;
 }
 .theme-dark .item-3XjbnG[data-item-id=pc-hastebin] {
-  background-image: url("https://img.icons8.com/material/24/B9BBBE/paste.png");
+  background-image: url("https://img.icons8.com/material/24/b9bbbe/paste.png");
+}
+.theme-dark .item-3XjbnG[data-item-id=pc-hastebin]:hover {
+  background-image: url("https://img.icons8.com/material/24/dcddde/paste.png");
+}
+.theme-dark .item-3XjbnG[data-item-id=pc-hastebin]:active, .theme-dark .item-3XjbnG[data-item-id=pc-hastebin].selected-g-kMVV {
+  background-image: url("https://img.icons8.com/material/24/ffffff/paste.png");
 }
 .theme-light .item-3XjbnG[data-item-id=pc-hastebin] {
-  background-image: url("https://img.icons8.com/material/24/4F5660/paste.png");
+  background-image: url("https://img.icons8.com/material/24/4f5660/paste.png");
+}
+.theme-light .item-3XjbnG[data-item-id=pc-hastebin]:hover {
+  background-image: url("https://img.icons8.com/material/24/2e3338/paste.png");
+}
+.theme-light .item-3XjbnG[data-item-id=pc-hastebin]:active, .theme-light .item-3XjbnG[data-item-id=pc-hastebin].selected-g-kMVV {
+  background-image: url("https://img.icons8.com/material/24/060607/paste.png");
 }
 
 .item-3XjbnG[data-item-id=pc-lmgtfy] {
@@ -88,10 +148,22 @@
   border: none !important;
 }
 .theme-dark .item-3XjbnG[data-item-id=pc-lmgtfy] {
-  background-image: url("https://img.icons8.com/material/24/B9BBBE/google-logo.png");
+  background-image: url("https://img.icons8.com/material/24/b9bbbe/google-logo.png");
+}
+.theme-dark .item-3XjbnG[data-item-id=pc-lmgtfy]:hover {
+  background-image: url("https://img.icons8.com/material/24/dcddde/google-logo.png");
+}
+.theme-dark .item-3XjbnG[data-item-id=pc-lmgtfy]:active, .theme-dark .item-3XjbnG[data-item-id=pc-lmgtfy].selected-g-kMVV {
+  background-image: url("https://img.icons8.com/material/24/ffffff/google-logo.png");
 }
 .theme-light .item-3XjbnG[data-item-id=pc-lmgtfy] {
-  background-image: url("https://img.icons8.com/material/24/4F5660/google-logo.png");
+  background-image: url("https://img.icons8.com/material/24/4f5660/google-logo.png");
+}
+.theme-light .item-3XjbnG[data-item-id=pc-lmgtfy]:hover {
+  background-image: url("https://img.icons8.com/material/24/2e3338/google-logo.png");
+}
+.theme-light .item-3XjbnG[data-item-id=pc-lmgtfy]:active, .theme-light .item-3XjbnG[data-item-id=pc-lmgtfy].selected-g-kMVV {
+  background-image: url("https://img.icons8.com/material/24/060607/google-logo.png");
 }
 
 .item-3XjbnG[data-item-id=pc-spotify] {
@@ -103,10 +175,22 @@
   border: none !important;
 }
 .theme-dark .item-3XjbnG[data-item-id=pc-spotify] {
-  background-image: url("https://img.icons8.com/material/24/B9BBBE/spotify.png");
+  background-image: url("https://img.icons8.com/material/24/b9bbbe/spotify.png");
+}
+.theme-dark .item-3XjbnG[data-item-id=pc-spotify]:hover {
+  background-image: url("https://img.icons8.com/material/24/dcddde/spotify.png");
+}
+.theme-dark .item-3XjbnG[data-item-id=pc-spotify]:active, .theme-dark .item-3XjbnG[data-item-id=pc-spotify].selected-g-kMVV {
+  background-image: url("https://img.icons8.com/material/24/ffffff/spotify.png");
 }
 .theme-light .item-3XjbnG[data-item-id=pc-spotify] {
-  background-image: url("https://img.icons8.com/material/24/4F5660/spotify.png");
+  background-image: url("https://img.icons8.com/material/24/4f5660/spotify.png");
+}
+.theme-light .item-3XjbnG[data-item-id=pc-spotify]:hover {
+  background-image: url("https://img.icons8.com/material/24/2e3338/spotify.png");
+}
+.theme-light .item-3XjbnG[data-item-id=pc-spotify]:active, .theme-light .item-3XjbnG[data-item-id=pc-spotify].selected-g-kMVV {
+  background-image: url("https://img.icons8.com/material/24/060607/spotify.png");
 }
 
 .item-3XjbnG[data-item-id=pc-emojiUtility],
@@ -120,11 +204,29 @@
 }
 .theme-dark .item-3XjbnG[data-item-id=pc-emojiUtility],
 .theme-dark .bd-emotes-tab {
-  background-image: url("https://img.icons8.com/material/24/B9BBBE/happy.png");
+  background-image: url("https://img.icons8.com/material/24/b9bbbe/happy.png");
+}
+.theme-dark .item-3XjbnG[data-item-id=pc-emojiUtility]:hover,
+.theme-dark .bd-emotes-tab:hover {
+  background-image: url("https://img.icons8.com/material/24/dcddde/happy.png");
+}
+.theme-dark .item-3XjbnG[data-item-id=pc-emojiUtility]:active, .theme-dark .item-3XjbnG[data-item-id=pc-emojiUtility].selected-g-kMVV,
+.theme-dark .bd-emotes-tab:active,
+.theme-dark .bd-emotes-tab.selected-g-kMVV {
+  background-image: url("https://img.icons8.com/material/24/ffffff/happy.png");
 }
 .theme-light .item-3XjbnG[data-item-id=pc-emojiUtility],
 .theme-light .bd-emotes-tab {
-  background-image: url("https://img.icons8.com/material/24/4F5660/happy.png");
+  background-image: url("https://img.icons8.com/material/24/4f5660/happy.png");
+}
+.theme-light .item-3XjbnG[data-item-id=pc-emojiUtility]:hover,
+.theme-light .bd-emotes-tab:hover {
+  background-image: url("https://img.icons8.com/material/24/2e3338/happy.png");
+}
+.theme-light .item-3XjbnG[data-item-id=pc-emojiUtility]:active, .theme-light .item-3XjbnG[data-item-id=pc-emojiUtility].selected-g-kMVV,
+.theme-light .bd-emotes-tab:active,
+.theme-light .bd-emotes-tab.selected-g-kMVV {
+  background-image: url("https://img.icons8.com/material/24/060607/happy.png");
 }
 
 .bd-customcss-tab,
@@ -138,11 +240,29 @@
 }
 .theme-dark .bd-customcss-tab,
 .theme-dark .item-3XjbnG[aria-controls=gm-custom-css-tab] {
-  background-image: url("https://img.icons8.com/material/24/B9BBBE/paint--v1.png");
+  background-image: url("https://img.icons8.com/material/24/b9bbbe/paint--v1.png");
+}
+.theme-dark .bd-customcss-tab:hover,
+.theme-dark .item-3XjbnG[aria-controls=gm-custom-css-tab]:hover {
+  background-image: url("https://img.icons8.com/material/24/dcddde/paint--v1.png");
+}
+.theme-dark .bd-customcss-tab:active, .theme-dark .bd-customcss-tab.selected-g-kMVV,
+.theme-dark .item-3XjbnG[aria-controls=gm-custom-css-tab]:active,
+.theme-dark .item-3XjbnG[aria-controls=gm-custom-css-tab].selected-g-kMVV {
+  background-image: url("https://img.icons8.com/material/24/ffffff/paint--v1.png");
 }
 .theme-light .bd-customcss-tab,
 .theme-light .item-3XjbnG[aria-controls=gm-custom-css-tab] {
-  background-image: url("https://img.icons8.com/material/24/4F5660/paint--v1.png");
+  background-image: url("https://img.icons8.com/material/24/4f5660/paint--v1.png");
+}
+.theme-light .bd-customcss-tab:hover,
+.theme-light .item-3XjbnG[aria-controls=gm-custom-css-tab]:hover {
+  background-image: url("https://img.icons8.com/material/24/2e3338/paint--v1.png");
+}
+.theme-light .bd-customcss-tab:active, .theme-light .bd-customcss-tab.selected-g-kMVV,
+.theme-light .item-3XjbnG[aria-controls=gm-custom-css-tab]:active,
+.theme-light .item-3XjbnG[aria-controls=gm-custom-css-tab].selected-g-kMVV {
+  background-image: url("https://img.icons8.com/material/24/060607/paint--v1.png");
 }
 
 .item-3XjbnG[data-item-id=pc-moduleManager-plugins],
@@ -160,13 +280,43 @@
 .theme-dark .item-3XjbnG[aria-controls=cumcord_plugins-tab],
 .theme-dark .bd-plugins-tab,
 .theme-dark .item-3XjbnG[aria-controls=gm-plugins-tab] {
-  background-image: url("https://img.icons8.com/material/24/B9BBBE/puzzle.png");
+  background-image: url("https://img.icons8.com/material/24/b9bbbe/puzzle.png");
+}
+.theme-dark .item-3XjbnG[data-item-id=pc-moduleManager-plugins]:hover,
+.theme-dark .item-3XjbnG[aria-controls=cumcord_plugins-tab]:hover,
+.theme-dark .bd-plugins-tab:hover,
+.theme-dark .item-3XjbnG[aria-controls=gm-plugins-tab]:hover {
+  background-image: url("https://img.icons8.com/material/24/dcddde/puzzle.png");
+}
+.theme-dark .item-3XjbnG[data-item-id=pc-moduleManager-plugins]:active, .theme-dark .item-3XjbnG[data-item-id=pc-moduleManager-plugins].selected-g-kMVV,
+.theme-dark .item-3XjbnG[aria-controls=cumcord_plugins-tab]:active,
+.theme-dark .item-3XjbnG[aria-controls=cumcord_plugins-tab].selected-g-kMVV,
+.theme-dark .bd-plugins-tab:active,
+.theme-dark .bd-plugins-tab.selected-g-kMVV,
+.theme-dark .item-3XjbnG[aria-controls=gm-plugins-tab]:active,
+.theme-dark .item-3XjbnG[aria-controls=gm-plugins-tab].selected-g-kMVV {
+  background-image: url("https://img.icons8.com/material/24/ffffff/puzzle.png");
 }
 .theme-light .item-3XjbnG[data-item-id=pc-moduleManager-plugins],
 .theme-light .item-3XjbnG[aria-controls=cumcord_plugins-tab],
 .theme-light .bd-plugins-tab,
 .theme-light .item-3XjbnG[aria-controls=gm-plugins-tab] {
-  background-image: url("https://img.icons8.com/material/24/4F5660/puzzle.png");
+  background-image: url("https://img.icons8.com/material/24/4f5660/puzzle.png");
+}
+.theme-light .item-3XjbnG[data-item-id=pc-moduleManager-plugins]:hover,
+.theme-light .item-3XjbnG[aria-controls=cumcord_plugins-tab]:hover,
+.theme-light .bd-plugins-tab:hover,
+.theme-light .item-3XjbnG[aria-controls=gm-plugins-tab]:hover {
+  background-image: url("https://img.icons8.com/material/24/2e3338/puzzle.png");
+}
+.theme-light .item-3XjbnG[data-item-id=pc-moduleManager-plugins]:active, .theme-light .item-3XjbnG[data-item-id=pc-moduleManager-plugins].selected-g-kMVV,
+.theme-light .item-3XjbnG[aria-controls=cumcord_plugins-tab]:active,
+.theme-light .item-3XjbnG[aria-controls=cumcord_plugins-tab].selected-g-kMVV,
+.theme-light .bd-plugins-tab:active,
+.theme-light .bd-plugins-tab.selected-g-kMVV,
+.theme-light .item-3XjbnG[aria-controls=gm-plugins-tab]:active,
+.theme-light .item-3XjbnG[aria-controls=gm-plugins-tab].selected-g-kMVV {
+  background-image: url("https://img.icons8.com/material/24/060607/puzzle.png");
 }
 
 .item-3XjbnG[data-item-id=pc-moduleManager-themes],
@@ -184,13 +334,43 @@
 .theme-dark .item-3XjbnG[aria-controls=ysink_stain_cumstain-tab],
 .theme-dark .bd-themes-tab,
 .theme-dark .item-3XjbnG[aria-controls=gm-themes-tab] {
-  background-image: url("https://img.icons8.com/material/24/B9BBBE/paint-brush.png");
+  background-image: url("https://img.icons8.com/material/24/b9bbbe/paint-brush.png");
+}
+.theme-dark .item-3XjbnG[data-item-id=pc-moduleManager-themes]:hover,
+.theme-dark .item-3XjbnG[aria-controls=ysink_stain_cumstain-tab]:hover,
+.theme-dark .bd-themes-tab:hover,
+.theme-dark .item-3XjbnG[aria-controls=gm-themes-tab]:hover {
+  background-image: url("https://img.icons8.com/material/24/dcddde/paint-brush.png");
+}
+.theme-dark .item-3XjbnG[data-item-id=pc-moduleManager-themes]:active, .theme-dark .item-3XjbnG[data-item-id=pc-moduleManager-themes].selected-g-kMVV,
+.theme-dark .item-3XjbnG[aria-controls=ysink_stain_cumstain-tab]:active,
+.theme-dark .item-3XjbnG[aria-controls=ysink_stain_cumstain-tab].selected-g-kMVV,
+.theme-dark .bd-themes-tab:active,
+.theme-dark .bd-themes-tab.selected-g-kMVV,
+.theme-dark .item-3XjbnG[aria-controls=gm-themes-tab]:active,
+.theme-dark .item-3XjbnG[aria-controls=gm-themes-tab].selected-g-kMVV {
+  background-image: url("https://img.icons8.com/material/24/ffffff/paint-brush.png");
 }
 .theme-light .item-3XjbnG[data-item-id=pc-moduleManager-themes],
 .theme-light .item-3XjbnG[aria-controls=ysink_stain_cumstain-tab],
 .theme-light .bd-themes-tab,
 .theme-light .item-3XjbnG[aria-controls=gm-themes-tab] {
-  background-image: url("https://img.icons8.com/material/24/4F5660/paint-brush.png");
+  background-image: url("https://img.icons8.com/material/24/4f5660/paint-brush.png");
+}
+.theme-light .item-3XjbnG[data-item-id=pc-moduleManager-themes]:hover,
+.theme-light .item-3XjbnG[aria-controls=ysink_stain_cumstain-tab]:hover,
+.theme-light .bd-themes-tab:hover,
+.theme-light .item-3XjbnG[aria-controls=gm-themes-tab]:hover {
+  background-image: url("https://img.icons8.com/material/24/2e3338/paint-brush.png");
+}
+.theme-light .item-3XjbnG[data-item-id=pc-moduleManager-themes]:active, .theme-light .item-3XjbnG[data-item-id=pc-moduleManager-themes].selected-g-kMVV,
+.theme-light .item-3XjbnG[aria-controls=ysink_stain_cumstain-tab]:active,
+.theme-light .item-3XjbnG[aria-controls=ysink_stain_cumstain-tab].selected-g-kMVV,
+.theme-light .bd-themes-tab:active,
+.theme-light .bd-themes-tab.selected-g-kMVV,
+.theme-light .item-3XjbnG[aria-controls=gm-themes-tab]:active,
+.theme-light .item-3XjbnG[aria-controls=gm-themes-tab].selected-g-kMVV {
+  background-image: url("https://img.icons8.com/material/24/060607/paint-brush.png");
 }
 
 .item-3XjbnG[aria-controls=ysink_zone_cumzone-tab] {
@@ -202,10 +382,22 @@
   border: none !important;
 }
 .theme-dark .item-3XjbnG[aria-controls=ysink_zone_cumzone-tab] {
-  background-image: url("https://img.icons8.com/material/24/B9BBBE/download--v1.png");
+  background-image: url("https://img.icons8.com/material/24/b9bbbe/download--v1.png");
+}
+.theme-dark .item-3XjbnG[aria-controls=ysink_zone_cumzone-tab]:hover {
+  background-image: url("https://img.icons8.com/material/24/dcddde/download--v1.png");
+}
+.theme-dark .item-3XjbnG[aria-controls=ysink_zone_cumzone-tab]:active, .theme-dark .item-3XjbnG[aria-controls=ysink_zone_cumzone-tab].selected-g-kMVV {
+  background-image: url("https://img.icons8.com/material/24/ffffff/download--v1.png");
 }
 .theme-light .item-3XjbnG[aria-controls=ysink_zone_cumzone-tab] {
-  background-image: url("https://img.icons8.com/material/24/4F5660/download--v1.png");
+  background-image: url("https://img.icons8.com/material/24/4f5660/download--v1.png");
+}
+.theme-light .item-3XjbnG[aria-controls=ysink_zone_cumzone-tab]:hover {
+  background-image: url("https://img.icons8.com/material/24/2e3338/download--v1.png");
+}
+.theme-light .item-3XjbnG[aria-controls=ysink_zone_cumzone-tab]:active, .theme-light .item-3XjbnG[aria-controls=ysink_zone_cumzone-tab].selected-g-kMVV {
+  background-image: url("https://img.icons8.com/material/24/060607/download--v1.png");
 }
 
 .item-3XjbnG[aria-controls=gm-changelog-tab] {
@@ -217,10 +409,22 @@
   border: none !important;
 }
 .theme-dark .item-3XjbnG[aria-controls=gm-changelog-tab] {
-  background-image: url("https://img.icons8.com/material/24/B9BBBE/activity-history.png");
+  background-image: url("https://img.icons8.com/material/24/b9bbbe/activity-history.png");
+}
+.theme-dark .item-3XjbnG[aria-controls=gm-changelog-tab]:hover {
+  background-image: url("https://img.icons8.com/material/24/dcddde/activity-history.png");
+}
+.theme-dark .item-3XjbnG[aria-controls=gm-changelog-tab]:active, .theme-dark .item-3XjbnG[aria-controls=gm-changelog-tab].selected-g-kMVV {
+  background-image: url("https://img.icons8.com/material/24/ffffff/activity-history.png");
 }
 .theme-light .item-3XjbnG[aria-controls=gm-changelog-tab] {
-  background-image: url("https://img.icons8.com/material/24/4F5660/activity-history.png");
+  background-image: url("https://img.icons8.com/material/24/4f5660/activity-history.png");
+}
+.theme-light .item-3XjbnG[aria-controls=gm-changelog-tab]:hover {
+  background-image: url("https://img.icons8.com/material/24/2e3338/activity-history.png");
+}
+.theme-light .item-3XjbnG[aria-controls=gm-changelog-tab]:active, .theme-light .item-3XjbnG[aria-controls=gm-changelog-tab].selected-g-kMVV {
+  background-image: url("https://img.icons8.com/material/24/060607/activity-history.png");
 }
 
 .item-3XjbnG[aria-controls=gm-snippets-tab] {
@@ -232,10 +436,22 @@
   border: none !important;
 }
 .theme-dark .item-3XjbnG[aria-controls=gm-snippets-tab] {
-  background-image: url("https://img.icons8.com/material/24/B9BBBE/console.png");
+  background-image: url("https://img.icons8.com/material/24/b9bbbe/console.png");
+}
+.theme-dark .item-3XjbnG[aria-controls=gm-snippets-tab]:hover {
+  background-image: url("https://img.icons8.com/material/24/dcddde/console.png");
+}
+.theme-dark .item-3XjbnG[aria-controls=gm-snippets-tab]:active, .theme-dark .item-3XjbnG[aria-controls=gm-snippets-tab].selected-g-kMVV {
+  background-image: url("https://img.icons8.com/material/24/ffffff/console.png");
 }
 .theme-light .item-3XjbnG[aria-controls=gm-snippets-tab] {
-  background-image: url("https://img.icons8.com/material/24/4F5660/console.png");
+  background-image: url("https://img.icons8.com/material/24/4f5660/console.png");
+}
+.theme-light .item-3XjbnG[aria-controls=gm-snippets-tab]:hover {
+  background-image: url("https://img.icons8.com/material/24/2e3338/console.png");
+}
+.theme-light .item-3XjbnG[aria-controls=gm-snippets-tab]:active, .theme-light .item-3XjbnG[aria-controls=gm-snippets-tab].selected-g-kMVV {
+  background-image: url("https://img.icons8.com/material/24/060607/console.png");
 }
 
 .item-3XjbnG[aria-controls=gm-fucklytics-tab] {
@@ -247,10 +463,22 @@
   border: none !important;
 }
 .theme-dark .item-3XjbnG[aria-controls=gm-fucklytics-tab] {
-  background-image: url("https://img.icons8.com/material/24/B9BBBE/middle-finger--v1.png");
+  background-image: url("https://img.icons8.com/material/24/b9bbbe/middle-finger--v1.png");
+}
+.theme-dark .item-3XjbnG[aria-controls=gm-fucklytics-tab]:hover {
+  background-image: url("https://img.icons8.com/material/24/dcddde/middle-finger--v1.png");
+}
+.theme-dark .item-3XjbnG[aria-controls=gm-fucklytics-tab]:active, .theme-dark .item-3XjbnG[aria-controls=gm-fucklytics-tab].selected-g-kMVV {
+  background-image: url("https://img.icons8.com/material/24/ffffff/middle-finger--v1.png");
 }
 .theme-light .item-3XjbnG[aria-controls=gm-fucklytics-tab] {
-  background-image: url("https://img.icons8.com/material/24/4F5660/middle-finger--v1.png");
+  background-image: url("https://img.icons8.com/material/24/4f5660/middle-finger--v1.png");
+}
+.theme-light .item-3XjbnG[aria-controls=gm-fucklytics-tab]:hover {
+  background-image: url("https://img.icons8.com/material/24/2e3338/middle-finger--v1.png");
+}
+.theme-light .item-3XjbnG[aria-controls=gm-fucklytics-tab]:active, .theme-light .item-3XjbnG[aria-controls=gm-fucklytics-tab].selected-g-kMVV {
+  background-image: url("https://img.icons8.com/material/24/060607/middle-finger--v1.png");
 }
 
 /*# sourceMappingURL=CompactSettings.theme.css.map */
