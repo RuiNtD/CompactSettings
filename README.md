@@ -9,7 +9,7 @@
   - [Install as Plugin](https://send.cumcord.com/#https://faynealdan.github.io/CompactSettings/dist/)
   - Install as theme with [Cumstain](https://yellowsink.github.io/cc-plugins/#cumstain):
     - Theme import URL: <https://faynealdan.github.io/CompactSettings/dist/CompactSettings.theme.css>
-    - Repo URL: <https://faynealdan.github.io/CompactSettings>
+    - Repo URL: <https://faynealdan.github.io/CompactSettings/>
 - Install with [Powercord](https://powercord.dev/):
   ```
   cd powercord/src/Powercord/themes

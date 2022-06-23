@@ -1,7 +1,7 @@
 /**
  * @name Compact Settings
  * @description Compacts several menus in User Settings
- * @version 1.0.0
+ * @version 1.0.1
  * 
  * @author Fayne Aldan
  * @authorLink https://github.com/FayneAldan
@@ -10,53 +10,49 @@
  * @updateUrl https://faynealdan.github.io/CompactSettings/dist/compact-settings.theme.css
  */
 
-// div[data-item-id="theme-toggler"] {
-//   display: none !important;
-// }
-
-$inline: true;
+$inline: false;
 
 $side: ".side-2ur1Qk";
 $tab: ".item-3XjbnG";
-
-// .sidebarRegion-1VBisG {
-//   flex: 0;
-// }
-
-// // contentColumnDefault-3eyv5o
-// .contentColumn-1C7as6 {
-//   margin: 0 auto;
-// }
-
-@import url("https://crearts-community.github.io/Settings-Icons/clients/powercord.css");
-// div[aria-controls="delete-tab"] svg,
-// div[aria-controls="logout-tab"] svg,
-// div[aria-controls="discord-nitro-tab"] svg {
-//   display: none;
-// }
-
-// div[aria-controls="library-inventory-tab"] > div > div,
-// .tabBarItemContainer-2HdIlr svg,
-// .tabBarItemContainer-2HdIlr div {
-//   margin-left: 0.5em;
-// }
 
 #{$side} {
   display: block;
 }
 
-#{$tab} {
-  // display: inline-block;
-  // border: 1px solid var(--button-outline-primary-border);
-  margin-right: 5px;
+@if $inline {
+  #{$tab} {
+    display: inline-block;
+    border: 1px solid var(--button-outline-primary-border);
+    margin-right: 5px;
+  }
+  div[aria-controls="library-inventory-tab"] > div > div,
+  .item-3XjbnG svg,
+  .tabBarItemContainer-2HdIlr div {
+    margin-left: 0.5em;
+  }
+} @else {
+  // @import url("https://crearts-community.github.io/Settings-Icons/clients/powercord.css");
+  // div[aria-controls="delete-tab"] svg,
+  // div[aria-controls="logout-tab"] svg,
+  // div[aria-controls="discord-nitro-tab"] svg {
+  //   display: none;
+  // }
 }
 
 @mixin iconbtn($icon) {
-  display: inline-block;
+  @if not $inline {
+    margin-left: 5px;
+    display: inline-block;
+  }
   width: 32px;
   color: transparent !important;
-  background: no-repeat center/24px
-    url("https://img.icons8.com/material/24/FFFFFF/#{$icon}.png");
+  background: no-repeat center/24px;
+  .theme-dark & {
+    background-image: url("https://img.icons8.com/material/24/B9BBBE/#{$icon}.png");
+  }
+  .theme-light & {
+    background-image: url("https://img.icons8.com/material/24/4F5660/#{$icon}.png");
+  }
   // background-size: 24px;
   // background-repeat: no-repeat;
   // background-position: center;

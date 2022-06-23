@@ -2,5 +2,6 @@
   "name": "Compact Settings",
   "description": "Compacts several menus in User Settings",
   "author": "Fayne Aldan",
-  "license": "MIT"
+  "license": "MIT",
+  "media": ["https://files.catbox.moe/n5yyfc.png"]
 }

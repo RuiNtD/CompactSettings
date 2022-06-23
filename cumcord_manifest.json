@@ -2,6 +2,6 @@
   "name": "Compact Settings",
   "description": "Compacts several menus in User Settings",
   "author": "Fayne Aldan",
-  "file": "src/cumcord.js",
-  "license": "MIT"
+  "license": "MIT",
+  "file": "src/cumcord.js"
 }

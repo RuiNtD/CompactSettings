@@ -1,7 +1,7 @@
 /**
  * @name Compact Settings
  * @description Compacts several menus in User Settings
- * @version 1.0.0
+ * @version 1.0.1
  * 
  * @author Fayne Aldan
  * @authorLink https://github.com/FayneAldan
@@ -9,135 +9,248 @@
  * @source https://github.com/FayneAldan/CompactSettings
  * @updateUrl https://faynealdan.github.io/CompactSettings/dist/compact-settings.theme.css
  */
-@import url("https://crearts-community.github.io/Settings-Icons/clients/powercord.css");
 .side-2ur1Qk {
   display: block;
-}
-
-.item-3XjbnG {
-  margin-right: 5px;
 }
 
 .item-3XjbnG[data-item-id=pc-general],
 .bd-settings-tab,
 .item-3XjbnG[aria-controls=gm-settings-tab] {
+  margin-left: 5px;
   display: inline-block;
   width: 32px;
   color: transparent !important;
-  background: no-repeat center/24px url("https://img.icons8.com/material/24/FFFFFF/settings.png");
+  background: no-repeat center/24px;
   border: none !important;
+}
+.theme-dark .item-3XjbnG[data-item-id=pc-general],
+.theme-dark .bd-settings-tab,
+.theme-dark .item-3XjbnG[aria-controls=gm-settings-tab] {
+  background-image: url("https://img.icons8.com/material/24/B9BBBE/settings.png");
+}
+.theme-light .item-3XjbnG[data-item-id=pc-general],
+.theme-light .bd-settings-tab,
+.theme-light .item-3XjbnG[aria-controls=gm-settings-tab] {
+  background-image: url("https://img.icons8.com/material/24/4F5660/settings.png");
 }
 
 .item-3XjbnG[data-item-id=pc-updater] {
+  margin-left: 5px;
   display: inline-block;
   width: 32px;
   color: transparent !important;
-  background: no-repeat center/24px url("https://img.icons8.com/material/24/FFFFFF/available-updates.png");
+  background: no-repeat center/24px;
   border: none !important;
+}
+.theme-dark .item-3XjbnG[data-item-id=pc-updater] {
+  background-image: url("https://img.icons8.com/material/24/B9BBBE/available-updates.png");
+}
+.theme-light .item-3XjbnG[data-item-id=pc-updater] {
+  background-image: url("https://img.icons8.com/material/24/4F5660/available-updates.png");
 }
 
 .item-3XjbnG[data-item-id=pc-clickableEdits] {
+  margin-left: 5px;
   display: inline-block;
   width: 32px;
   color: transparent !important;
-  background: no-repeat center/24px url("https://img.icons8.com/material/24/FFFFFF/edit.png");
+  background: no-repeat center/24px;
   border: none !important;
+}
+.theme-dark .item-3XjbnG[data-item-id=pc-clickableEdits] {
+  background-image: url("https://img.icons8.com/material/24/B9BBBE/edit.png");
+}
+.theme-light .item-3XjbnG[data-item-id=pc-clickableEdits] {
+  background-image: url("https://img.icons8.com/material/24/4F5660/edit.png");
 }
 
 .item-3XjbnG[data-item-id=pc-hastebin] {
+  margin-left: 5px;
   display: inline-block;
   width: 32px;
   color: transparent !important;
-  background: no-repeat center/24px url("https://img.icons8.com/material/24/FFFFFF/paste.png");
+  background: no-repeat center/24px;
   border: none !important;
+}
+.theme-dark .item-3XjbnG[data-item-id=pc-hastebin] {
+  background-image: url("https://img.icons8.com/material/24/B9BBBE/paste.png");
+}
+.theme-light .item-3XjbnG[data-item-id=pc-hastebin] {
+  background-image: url("https://img.icons8.com/material/24/4F5660/paste.png");
 }
 
 .item-3XjbnG[data-item-id=pc-lmgtfy] {
+  margin-left: 5px;
   display: inline-block;
   width: 32px;
   color: transparent !important;
-  background: no-repeat center/24px url("https://img.icons8.com/material/24/FFFFFF/google-logo.png");
+  background: no-repeat center/24px;
   border: none !important;
+}
+.theme-dark .item-3XjbnG[data-item-id=pc-lmgtfy] {
+  background-image: url("https://img.icons8.com/material/24/B9BBBE/google-logo.png");
+}
+.theme-light .item-3XjbnG[data-item-id=pc-lmgtfy] {
+  background-image: url("https://img.icons8.com/material/24/4F5660/google-logo.png");
 }
 
 .item-3XjbnG[data-item-id=pc-spotify] {
+  margin-left: 5px;
   display: inline-block;
   width: 32px;
   color: transparent !important;
-  background: no-repeat center/24px url("https://img.icons8.com/material/24/FFFFFF/spotify.png");
+  background: no-repeat center/24px;
   border: none !important;
+}
+.theme-dark .item-3XjbnG[data-item-id=pc-spotify] {
+  background-image: url("https://img.icons8.com/material/24/B9BBBE/spotify.png");
+}
+.theme-light .item-3XjbnG[data-item-id=pc-spotify] {
+  background-image: url("https://img.icons8.com/material/24/4F5660/spotify.png");
 }
 
 .item-3XjbnG[data-item-id=pc-emojiUtility],
 .bd-emotes-tab {
+  margin-left: 5px;
   display: inline-block;
   width: 32px;
   color: transparent !important;
-  background: no-repeat center/24px url("https://img.icons8.com/material/24/FFFFFF/happy.png");
+  background: no-repeat center/24px;
   border: none !important;
+}
+.theme-dark .item-3XjbnG[data-item-id=pc-emojiUtility],
+.theme-dark .bd-emotes-tab {
+  background-image: url("https://img.icons8.com/material/24/B9BBBE/happy.png");
+}
+.theme-light .item-3XjbnG[data-item-id=pc-emojiUtility],
+.theme-light .bd-emotes-tab {
+  background-image: url("https://img.icons8.com/material/24/4F5660/happy.png");
 }
 
 .bd-customcss-tab,
 .item-3XjbnG[aria-controls=gm-custom-css-tab] {
+  margin-left: 5px;
   display: inline-block;
   width: 32px;
   color: transparent !important;
-  background: no-repeat center/24px url("https://img.icons8.com/material/24/FFFFFF/paint--v1.png");
+  background: no-repeat center/24px;
   border: none !important;
+}
+.theme-dark .bd-customcss-tab,
+.theme-dark .item-3XjbnG[aria-controls=gm-custom-css-tab] {
+  background-image: url("https://img.icons8.com/material/24/B9BBBE/paint--v1.png");
+}
+.theme-light .bd-customcss-tab,
+.theme-light .item-3XjbnG[aria-controls=gm-custom-css-tab] {
+  background-image: url("https://img.icons8.com/material/24/4F5660/paint--v1.png");
 }
 
 .item-3XjbnG[data-item-id=pc-moduleManager-plugins],
 .item-3XjbnG[aria-controls=cumcord_plugins-tab],
 .bd-plugins-tab,
 .item-3XjbnG[aria-controls=gm-plugins-tab] {
+  margin-left: 5px;
   display: inline-block;
   width: 32px;
   color: transparent !important;
-  background: no-repeat center/24px url("https://img.icons8.com/material/24/FFFFFF/puzzle.png");
+  background: no-repeat center/24px;
   border: none !important;
+}
+.theme-dark .item-3XjbnG[data-item-id=pc-moduleManager-plugins],
+.theme-dark .item-3XjbnG[aria-controls=cumcord_plugins-tab],
+.theme-dark .bd-plugins-tab,
+.theme-dark .item-3XjbnG[aria-controls=gm-plugins-tab] {
+  background-image: url("https://img.icons8.com/material/24/B9BBBE/puzzle.png");
+}
+.theme-light .item-3XjbnG[data-item-id=pc-moduleManager-plugins],
+.theme-light .item-3XjbnG[aria-controls=cumcord_plugins-tab],
+.theme-light .bd-plugins-tab,
+.theme-light .item-3XjbnG[aria-controls=gm-plugins-tab] {
+  background-image: url("https://img.icons8.com/material/24/4F5660/puzzle.png");
 }
 
 .item-3XjbnG[data-item-id=pc-moduleManager-themes],
 .item-3XjbnG[aria-controls=ysink_stain_cumstain-tab],
 .bd-themes-tab,
 .item-3XjbnG[aria-controls=gm-themes-tab] {
+  margin-left: 5px;
   display: inline-block;
   width: 32px;
   color: transparent !important;
-  background: no-repeat center/24px url("https://img.icons8.com/material/24/FFFFFF/paint-brush.png");
+  background: no-repeat center/24px;
   border: none !important;
+}
+.theme-dark .item-3XjbnG[data-item-id=pc-moduleManager-themes],
+.theme-dark .item-3XjbnG[aria-controls=ysink_stain_cumstain-tab],
+.theme-dark .bd-themes-tab,
+.theme-dark .item-3XjbnG[aria-controls=gm-themes-tab] {
+  background-image: url("https://img.icons8.com/material/24/B9BBBE/paint-brush.png");
+}
+.theme-light .item-3XjbnG[data-item-id=pc-moduleManager-themes],
+.theme-light .item-3XjbnG[aria-controls=ysink_stain_cumstain-tab],
+.theme-light .bd-themes-tab,
+.theme-light .item-3XjbnG[aria-controls=gm-themes-tab] {
+  background-image: url("https://img.icons8.com/material/24/4F5660/paint-brush.png");
 }
 
 .item-3XjbnG[aria-controls=ysink_zone_cumzone-tab] {
+  margin-left: 5px;
   display: inline-block;
   width: 32px;
   color: transparent !important;
-  background: no-repeat center/24px url("https://img.icons8.com/material/24/FFFFFF/download--v1.png");
+  background: no-repeat center/24px;
   border: none !important;
+}
+.theme-dark .item-3XjbnG[aria-controls=ysink_zone_cumzone-tab] {
+  background-image: url("https://img.icons8.com/material/24/B9BBBE/download--v1.png");
+}
+.theme-light .item-3XjbnG[aria-controls=ysink_zone_cumzone-tab] {
+  background-image: url("https://img.icons8.com/material/24/4F5660/download--v1.png");
 }
 
 .item-3XjbnG[aria-controls=gm-changelog-tab] {
+  margin-left: 5px;
   display: inline-block;
   width: 32px;
   color: transparent !important;
-  background: no-repeat center/24px url("https://img.icons8.com/material/24/FFFFFF/activity-history.png");
+  background: no-repeat center/24px;
   border: none !important;
+}
+.theme-dark .item-3XjbnG[aria-controls=gm-changelog-tab] {
+  background-image: url("https://img.icons8.com/material/24/B9BBBE/activity-history.png");
+}
+.theme-light .item-3XjbnG[aria-controls=gm-changelog-tab] {
+  background-image: url("https://img.icons8.com/material/24/4F5660/activity-history.png");
 }
 
 .item-3XjbnG[aria-controls=gm-snippets-tab] {
+  margin-left: 5px;
   display: inline-block;
   width: 32px;
   color: transparent !important;
-  background: no-repeat center/24px url("https://img.icons8.com/material/24/FFFFFF/console.png");
+  background: no-repeat center/24px;
   border: none !important;
+}
+.theme-dark .item-3XjbnG[aria-controls=gm-snippets-tab] {
+  background-image: url("https://img.icons8.com/material/24/B9BBBE/console.png");
+}
+.theme-light .item-3XjbnG[aria-controls=gm-snippets-tab] {
+  background-image: url("https://img.icons8.com/material/24/4F5660/console.png");
 }
 
 .item-3XjbnG[aria-controls=gm-fucklytics-tab] {
+  margin-left: 5px;
   display: inline-block;
   width: 32px;
   color: transparent !important;
-  background: no-repeat center/24px url("https://img.icons8.com/material/24/FFFFFF/middle-finger--v1.png");
+  background: no-repeat center/24px;
   border: none !important;
+}
+.theme-dark .item-3XjbnG[aria-controls=gm-fucklytics-tab] {
+  background-image: url("https://img.icons8.com/material/24/B9BBBE/middle-finger--v1.png");
+}
+.theme-light .item-3XjbnG[aria-controls=gm-fucklytics-tab] {
+  background-image: url("https://img.icons8.com/material/24/4F5660/middle-finger--v1.png");
 }
 
 /*# sourceMappingURL=CompactSettings.theme.css.map */
