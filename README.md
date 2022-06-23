@@ -2,7 +2,7 @@
 
 - Quick CSS:
   ```css
-  @import url("https://crearts-community.github.io/CreArts-Discord/clients/crearts.theme.css");
+  @import url("https://faynealdan.github.io/CompactSettings/dist/CompactSettings.theme.css");
   ```
 - [Download for BetterDiscord](https://faynealdan.github.io/CompactSettings/dist/CompactSettings.theme.css)
 - Install with [Cumcord](https://cumcord.com/)
