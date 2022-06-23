@@ -1,5 +1,3 @@
-# Compact Settings
-
 **Compacts several menus in User Settings**
 
 - Quick CSS:
