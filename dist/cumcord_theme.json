@@ -3,5 +3,5 @@
   "description": "Compacts several menus in User Settings",
   "author": "Fayne Aldan",
   "license": "MIT",
-  "media": ["https://faynealdan.github.io/CompactSettings/screenshot.png"]
+  "media": "https://faynealdan.github.io/CompactSettings/screenshot.png"
 }
