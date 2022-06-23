@@ -1,0 +1,8 @@
+{
+  "meta": {
+    "name": "Compact Settings",
+    "description": "literally just one theme lol",
+    "author": "Fayne Aldan"
+  },
+  "themes": ["dist/CompactSettings.theme.css"]
+}

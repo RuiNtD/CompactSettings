@@ -1,0 +1,125 @@
+/**
+ * @name Compact Settings
+ * @description Compacts several menus in User Settings
+ * @version 1.0.0
+ * 
+ * @author Fayne Aldan
+ * @authorLink https://github.com/FayneAldan
+ * 
+ * @source https://github.com/FayneAldan/CompactSettings
+ * @updateUrl https://faynealdan.github.io/CompactSettings/dist/compact-settings.theme.css
+ */
+
+// div[data-item-id="theme-toggler"] {
+//   display: none !important;
+// }
+
+$inline: true;
+
+$side: ".side-2ur1Qk";
+$tab: ".item-3XjbnG";
+
+// .sidebarRegion-1VBisG {
+//   flex: 0;
+// }
+
+// // contentColumnDefault-3eyv5o
+// .contentColumn-1C7as6 {
+//   margin: 0 auto;
+// }
+
+@import url("https://crearts-community.github.io/Settings-Icons/clients/powercord.css");
+// div[aria-controls="delete-tab"] svg,
+// div[aria-controls="logout-tab"] svg,
+// div[aria-controls="discord-nitro-tab"] svg {
+//   display: none;
+// }
+
+// div[aria-controls="library-inventory-tab"] > div > div,
+// .tabBarItemContainer-2HdIlr svg,
+// .tabBarItemContainer-2HdIlr div {
+//   margin-left: 0.5em;
+// }
+
+#{$side} {
+  display: block;
+}
+
+#{$tab} {
+  // display: inline-block;
+  // border: 1px solid var(--button-outline-primary-border);
+  margin-right: 5px;
+}
+
+@mixin iconbtn($icon) {
+  display: inline-block;
+  width: 32px;
+  color: transparent !important;
+  background: no-repeat center/24px
+    url("https://img.icons8.com/material/24/FFFFFF/#{$icon}.png");
+  // background-size: 24px;
+  // background-repeat: no-repeat;
+  // background-position: center;
+  // background-image: url("https://img.icons8.com/material/24/FFFFFF/#{$icon}.png");
+  // background-image: url("./img/icons8-#{$icon}-50.png");
+  border: none !important;
+}
+
+// Powercord
+#{$tab}[data-item-id="pc-general"],
+.bd-settings-tab,
+#{$tab}[aria-controls="gm-settings-tab"] {
+  @include iconbtn("settings");
+}
+
+#{$tab}[data-item-id="pc-updater"] {
+  @include iconbtn("available-updates");
+}
+#{$tab}[data-item-id="pc-clickableEdits"] {
+  @include iconbtn("edit");
+}
+#{$tab}[data-item-id="pc-hastebin"] {
+  @include iconbtn("paste");
+}
+#{$tab}[data-item-id="pc-lmgtfy"] {
+  @include iconbtn("google-logo");
+}
+#{$tab}[data-item-id="pc-spotify"] {
+  @include iconbtn("spotify");
+}
+#{$tab}[data-item-id="pc-emojiUtility"],
+.bd-emotes-tab {
+  @include iconbtn("happy");
+}
+.bd-customcss-tab,
+#{$tab}[aria-controls="gm-custom-css-tab"] {
+  @include iconbtn("paint--v1");
+}
+
+// Cumcord
+#{$tab}[data-item-id="pc-moduleManager-plugins"],
+#{$tab}[aria-controls="cumcord_plugins-tab"],
+.bd-plugins-tab,
+#{$tab}[aria-controls="gm-plugins-tab"] {
+  @include iconbtn("puzzle");
+}
+#{$tab}[data-item-id="pc-moduleManager-themes"],
+#{$tab}[aria-controls="ysink_stain_cumstain-tab"],
+.bd-themes-tab,
+#{$tab}[aria-controls="gm-themes-tab"] {
+  @include iconbtn("paint-brush");
+}
+#{$tab}[aria-controls="ysink_zone_cumzone-tab"] {
+  @include iconbtn("download--v1");
+}
+
+// GooseMod
+#{$tab}[aria-controls="gm-changelog-tab"] {
+  @include iconbtn("activity-history");
+}
+#{$tab}[aria-controls="gm-snippets-tab"] {
+  @include iconbtn("console");
+}
+#{$tab}[aria-controls="gm-fucklytics-tab"] {
+  @include iconbtn("middle-finger--v1");
+}

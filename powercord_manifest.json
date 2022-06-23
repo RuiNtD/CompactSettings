@@ -1,0 +1,8 @@
+{
+  "name": "Compact Settings",
+  "description": "Compacts several menus in User Settings",
+  "version": "1.0.0",
+  "author": "Fayne Aldan",
+  "license": "MIT",
+  "theme": "src/compact-settings.theme.scss"
+}
