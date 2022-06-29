@@ -1,13 +1,13 @@
 /**
  * @name Compact Settings
  * @description Compacts several menus in User Settings
- * @version 1.0.2
+ * @version 1.0.3
  * 
  * @author Fayne Aldan
  * @authorLink https://github.com/FayneAldan
  * 
  * @source https://github.com/FayneAldan/CompactSettings
- * @updateUrl https://faynealdan.github.io/CompactSettings/dist/compact-settings.theme.css
+ * @updateUrl https://faynealdan.github.io/CompactSettings/dist/CompactSettings.theme.css
  */
 
 $inline: false;
@@ -39,6 +39,11 @@ $tab: ".item-3XjbnG";
   // }
 }
 
+@mixin icon($icon, $color) {
+  // background-image: url("https://img.icons8.com/material/50/#{$color}/#{$icon}.png");
+  background-image: inline-image("./img/#{$color}/icons8-#{$icon}-50.png");
+}
+
 @mixin iconbtn($icon) {
   @if not $inline {
     margin-left: 5px;
@@ -48,23 +53,23 @@ $tab: ".item-3XjbnG";
   color: transparent !important;
   background: no-repeat center/24px;
   .theme-dark & {
-    background-image: url("https://img.icons8.com/material/24/b9bbbe/#{$icon}.png");
+    @include icon($icon, "b9bbbe");
     &:hover {
-      background-image: url("https://img.icons8.com/material/24/dcddde/#{$icon}.png");
+      @include icon($icon, "dcddde");
     }
     &:active,
     &.selected-g-kMVV {
-      background-image: url("https://img.icons8.com/material/24/ffffff/#{$icon}.png");
+      @include icon($icon, "ffffff");
     }
   }
   .theme-light & {
-    background-image: url("https://img.icons8.com/material/24/4f5660/#{$icon}.png");
+    @include icon($icon, "4f5660");
     &:hover {
-      background-image: url("https://img.icons8.com/material/24/2e3338/#{$icon}.png");
+      @include icon($icon, "2e3338");
     }
     &:active,
     &.selected-g-kMVV {
-      background-image: url("https://img.icons8.com/material/24/060607/#{$icon}.png");
+      @include icon($icon, "060607");
     }
   }
   // background-size: 24px;
@@ -92,7 +97,7 @@ $tab: ".item-3XjbnG";
   @include iconbtn("paste");
 }
 #{$tab}[data-item-id="pc-lmgtfy"] {
-  @include iconbtn("google-logo");
+  @include iconbtn("google");
 }
 #{$tab}[data-item-id="pc-spotify"] {
   @include iconbtn("spotify");
@@ -103,7 +108,7 @@ $tab: ".item-3XjbnG";
 }
 .bd-customcss-tab,
 #{$tab}[aria-controls="gm-custom-css-tab"] {
-  @include iconbtn("paint--v1");
+  @include iconbtn("paint");
 }
 
 // Cumcord
@@ -120,7 +125,7 @@ $tab: ".item-3XjbnG";
   @include iconbtn("paint-brush");
 }
 #{$tab}[aria-controls="ysink_zone_cumzone-tab"] {
-  @include iconbtn("download--v1");
+  @include iconbtn("download");
 }
 
 // GooseMod
@@ -131,5 +136,5 @@ $tab: ".item-3XjbnG";
   @include iconbtn("console");
 }
 #{$tab}[aria-controls="gm-fucklytics-tab"] {
-  @include iconbtn("middle-finger--v1");
+  @include iconbtn("obscene-gesture");
 }

@@ -1,1 +1,0 @@
-@pwsh build.ps1

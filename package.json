@@ -1,0 +1,26 @@
+{
+  "name": "compactsettings",
+  "version": "1.0.0",
+  "description": "Compacts several menus in User Settings",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FayneAldan/CompactSettings.git"
+  },
+  "author": "Fayne Aldan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FayneAldan/CompactSettings/issues"
+  },
+  "homepage": "https://github.com/FayneAldan/CompactSettings#readme",
+  "devDependencies": {
+    "del": "^6.1.1",
+    "gulp": "^4.0.2",
+    "gulp-inline-image": "^1.0.0",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.53.0"
+  }
+}
