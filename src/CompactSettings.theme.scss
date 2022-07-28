@@ -80,13 +80,34 @@ $tab: ".item-3XjbnG";
   border: none !important;
 }
 
-// Powercord
+// Common
 #{$tab}[data-item-id="pc-general"],
 .bd-settings-tab,
 #{$tab}[aria-controls="gm-settings-tab"] {
   @include iconbtn("settings");
 }
+#{$tab}[data-item-id="pc-moduleManager-plugins"],
+#{$tab}[aria-controls="cumcord_plugins-tab"],
+.bd-plugins-tab,
+#{$tab}[aria-controls="gm-plugins-tab"] {
+  @include iconbtn("puzzle");
+}
+#{$tab}[data-item-id="pc-moduleManager-themes"],
+#{$tab}[aria-controls="ysink_stain-tab"],
+.bd-themes-tab,
+#{$tab}[aria-controls="gm-themes-tab"] {
+  @include iconbtn("paint-brush");
+}
+.bd-customcss-tab,
+#{$tab}[aria-controls="gm-custom-css-tab"] {
+  @include iconbtn("paint");
+}
+#{$tab}[data-item-id="pc-emojiUtility"],
+.bd-emotes-tab {
+  @include iconbtn("happy");
+}
 
+// Powercord
 #{$tab}[data-item-id="pc-updater"] {
   @include iconbtn("available-updates");
 }
@@ -102,28 +123,8 @@ $tab: ".item-3XjbnG";
 #{$tab}[data-item-id="pc-spotify"] {
   @include iconbtn("spotify");
 }
-#{$tab}[data-item-id="pc-emojiUtility"],
-.bd-emotes-tab {
-  @include iconbtn("happy");
-}
-.bd-customcss-tab,
-#{$tab}[aria-controls="gm-custom-css-tab"] {
-  @include iconbtn("paint");
-}
 
 // Cumcord
-#{$tab}[data-item-id="pc-moduleManager-plugins"],
-#{$tab}[aria-controls="cumcord_plugins-tab"],
-.bd-plugins-tab,
-#{$tab}[aria-controls="gm-plugins-tab"] {
-  @include iconbtn("puzzle");
-}
-#{$tab}[data-item-id="pc-moduleManager-themes"],
-#{$tab}[aria-controls="ysink_stain_cumstain-tab"],
-.bd-themes-tab,
-#{$tab}[aria-controls="gm-themes-tab"] {
-  @include iconbtn("paint-brush");
-}
 #{$tab}[aria-controls="ysink_zone_cumzone-tab"] {
   @include iconbtn("download");
 }
