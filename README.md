@@ -11,7 +11,7 @@ Icons by [Icons8]
   - Theme import URL: <https://faynealdan.github.io/CompactSettings/dist/CompactSettings.theme.css>
   - Repo URL: <https://faynealdan.github.io/CompactSettings/>
 - Install with [Replugged]:
-  ```
+  ```cmd
   cd replugged/src/Powercord/themes
   git clone https://github.com/FayneAldan/CompactSettings
   ```
