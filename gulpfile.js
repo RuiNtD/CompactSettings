@@ -23,7 +23,7 @@ function buildStyles() {
 exports.buildStyles = buildStyles;
 
 exports.watch = function () {
-  return watch(["src/**", "static/**"], exports.default);
+  return watch(["src/**", "static/**"], { delay: 3000 }, exports.default);
 };
 
 exports.default = series(clean, parallel(copyStatic, buildStyles));
