@@ -10,13 +10,13 @@ Icons by [Icons8]
 - Install with [Cumcord] using [Cumstain]:
   - Theme import URL: <https://faynealdan.github.io/CompactSettings/dist/CompactSettings.theme.css>
   - Repo URL: <https://faynealdan.github.io/CompactSettings/>
-- Install with [Powercord]:
+- Install with [Replugged]:
   ```
-  cd powercord/src/Powercord/themes
+  cd replugged/src/Powercord/themes
   git clone https://github.com/FayneAldan/CompactSettings
   ```
 
 [icons8]: https://icons8.com/
 [cumcord]: https://cumcord.com/
 [cumstain]: https://yellowsink.github.io/cc-plugins/#cumstain
-[powercord]: https://powercord.dev/
+[replugged]: https://github.com/replugged-org/replugged
