@@ -1,4 +1,4 @@
-const { series, parallel, src, dest } = require("gulp");
+const { series, parallel, src, dest, watch } = require("gulp");
 
 const del = require("del");
 const sass = require("gulp-sass")(require("sass"));
@@ -21,5 +21,9 @@ function buildStyles() {
     .pipe(dest("./dist"));
 }
 exports.buildStyles = buildStyles;
+
+exports.watch = function () {
+  return watch(["src/**", "static/**"], exports.default);
+};
 
 exports.default = series(clean, parallel(copyStatic, buildStyles));
