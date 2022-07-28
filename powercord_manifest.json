@@ -4,5 +4,5 @@
   "version": "1.0.3",
   "author": "Fayne Aldan",
   "license": "MIT",
-  "theme": "src/CompactSettings.theme.scss"
+  "theme": "dist/CompactSettings.theme.css"
 }
